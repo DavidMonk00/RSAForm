@@ -30,12 +30,11 @@ namespace RSAForm
             k.dGen();
             k.PublicKeyGen();
             k.PrivateKeyGen();
-            /*progressBar1.PerformStep();
+            progressBar1.PerformStep();
             label1.Text = "Saving keys...";
             k.SaveKey();
             progressBar1.PerformStep();
-            label1.Text = "Keys created.";*/
+            label1.Text = "Keys created.";
         }
     }
-
 }
