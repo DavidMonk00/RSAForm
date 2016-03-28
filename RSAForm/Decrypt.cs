@@ -42,7 +42,15 @@ namespace RSA
             char[] m_char_array = new char[m_int.Length / 4];
             for (int i = 0; i < m_int.Length; i = i + 4)
             {
-                m_char_array[i/4] = (char)int.Parse(m_int.Substring(i, 4));
+                if (i < m_int.Length - 4)
+                {
+                    m_char_array[i / 4] = (char)int.Parse(m_int.Substring(i, 4));
+                }
+                else
+                {
+                    //m_char_array[i / 4] = (char)int.Parse(m_int.Substring(i));
+                }
+                
             }
             return new string(m_char_array);
         }

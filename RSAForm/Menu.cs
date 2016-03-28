@@ -29,7 +29,14 @@ namespace RSAForm
 
         private void buttonEncrypt_Click(object sender, EventArgs e)
         {
+            EncryptForm encf = new EncryptForm();
+            encf.Show();
+        }
 
+        private void buttonDecrypt_Click(object sender, EventArgs e)
+        {
+            DecryptForm decf = new DecryptForm();
+            decf.Show();
         }
     }
 }
