@@ -56,12 +56,6 @@
     <Compile Include="KeyGeneration.Designer.cs">
       <DependentUpon>KeyGeneration.cs</DependentUpon>
     </Compile>
-    <Compile Include="KeyGenProgress.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="KeyGenProgress.Designer.cs">
-      <DependentUpon>KeyGenProgress.cs</DependentUpon>
-    </Compile>
     <Compile Include="Menu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -76,9 +70,6 @@
     <Compile Include="PublicKey.cs" />
     <EmbeddedResource Include="KeyGeneration.resx">
       <DependentUpon>KeyGeneration.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="KeyGenProgress.resx">
-      <DependentUpon>KeyGenProgress.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Menu.resx">
       <DependentUpon>Menu.cs</DependentUpon>

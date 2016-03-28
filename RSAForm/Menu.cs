@@ -20,12 +20,16 @@ namespace RSAForm
         {
 
         }
+
         private void buttonKeyGen_Click(object sender, EventArgs e)
         {
-            KeyGeneration keygen = new KeyGeneration();
-            keygen.Show();
+            KeyGeneration kg = new KeyGeneration();
+            kg.Show();
         }
 
-        
+        private void buttonEncrypt_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
